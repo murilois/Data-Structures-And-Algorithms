@@ -36,3 +36,5 @@ def fibonacci(n, memo=None):
     resultado = fibonacci(n - 1, memo) + fibonacci(n - 2, memo)
     memo[n] = resultado
     return resultado
+
+## Teste
